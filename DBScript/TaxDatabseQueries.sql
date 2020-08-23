@@ -7,6 +7,16 @@ GO
 
 USE [TaxDatabase]
 GO
+IF  NOT EXISTS (SELECT * FROM sys.objects 
+WHERE object_id = OBJECT_ID(N'[dbo].[MunicipalityTax]') AND type in (N'U'))
+BEGIN
+Create Table MunicipalityDetails
+(
+	MunicipalityId Int Identity(1,1) Primary Key,
+	MunicipalityName Varchar(100) Not Null
+)
+END
+GO
 --You need to check if the table exists
 IF  NOT EXISTS (SELECT * FROM sys.objects 
 WHERE object_id = OBJECT_ID(N'[dbo].[MunicipalityTax]') AND type in (N'U'))
