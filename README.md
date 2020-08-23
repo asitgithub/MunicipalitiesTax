@@ -50,8 +50,6 @@ Also, the task mentioned that the solution should have it's own database - for s
 
 Instructions on how to install a Windows Service: https://msdn.microsoft.com/en-us/library/zt39148a(v=vs.110).aspx#BK_Install The startup type for this MunicipalityTaxes Windows Service is set to Manual by default, so you'll need to start it manually after installing. :)
 
-The URL for the service is set in the config, and is currently http://localhost:8733/Design_Time_Addresses/MunicipalityTaxes/Service1/mex, as defined at https://github.com/keith-hall/Showcase_CSharp_MunicipalityTaxSchedule/blob/4cda15a87b536a346af33f62e035f646b7bc03ae/MunicipalityTaxes/MunicipalityTaxes/App.config#L25.
-
 If you get an System.ServiceModel.AddressAccessDeniedException when you try to host the WCF service, like:
 
 Please try changing the HTTP port to 8733 or running as Administrator.
@@ -61,19 +59,28 @@ Please try changing the HTTP port to 8733 or running as Administrator.
 The bulk import method expects a text file in the following format:
 
 Vilnius|Yearly|2016-01-01|0.2
+
 Vilnius|Monthly|2016-05-01|0.4
+
 Vilnius|Daily|2016-01-01|0.1
+
 Vilnius|Daily|2016-12-25|0.1
+
 i.e. for each tax schedule:
 
-Muncipality
+# Muncipality
 
 followed by a pipe character
 followed by the frequency - either "Yearly", "Monthly", "Weekly" or "Daily"
+
 followed by a pipe character
+
 followed by a date that .NET can parse unambiguously
+
 followed by a pipe character
+
 followed by the tax amount (a double that .NET can parse)
+
 followed by a new line character (CRLF in Windows world)
 
 Of course, in keeping with the requirements, any internal errors like the specifics of parse failures etc. are not shown to the user, but are logged for the service administrators to peruse.
