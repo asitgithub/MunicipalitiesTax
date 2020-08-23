@@ -30,5 +30,9 @@ Bonus tasks (if there is time left)
 •	Application is  deployed as a self-hosted windows service
 •	Update record functionality is exposed via API
 
+Below are few of my Assumptions  -
 
+1. a Yearly schedule to start not on the first day of January
+2. a Monthly schedule to start not on the 1st of the month
+3. a Weekly schedule to start not on a Monday
 
