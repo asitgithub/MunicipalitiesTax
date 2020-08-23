@@ -1,0 +1,6 @@
+C:\Users\Asit_S\Desktop\App2\MunicipalityTaxes\Client\bin\Debug\ExampleClient.exe.config
+C:\Users\Asit_S\Desktop\App2\MunicipalityTaxes\Client\bin\Debug\ExampleClient.exe
+C:\Users\Asit_S\Desktop\App2\MunicipalityTaxes\Client\bin\Debug\ExampleClient.pdb
+C:\Users\Asit_S\Desktop\App2\MunicipalityTaxes\Client\obj\Debug\ExampleClient.exe
+C:\Users\Asit_S\Desktop\App2\MunicipalityTaxes\Client\obj\Debug\ExampleClient.pdb
+C:\Users\Asit_S\Desktop\App2\MunicipalityTaxes\Client\obj\Debug\Client.csprojAssemblyReference.cache

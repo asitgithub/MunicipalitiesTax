@@ -1,0 +1,16 @@
+C:\Users\Asit_S\Desktop\App2\MunicipalityTaxes\MunicipalityTaxesWindowsService\bin\Debug\NLog.config
+C:\Users\Asit_S\Desktop\App2\MunicipalityTaxes\MunicipalityTaxesWindowsService\bin\Debug\MunicipalityTaxesWindowsService.exe.config
+C:\Users\Asit_S\Desktop\App2\MunicipalityTaxes\MunicipalityTaxesWindowsService\bin\Debug\MunicipalityTaxesWindowsService.exe
+C:\Users\Asit_S\Desktop\App2\MunicipalityTaxes\MunicipalityTaxesWindowsService\bin\Debug\MunicipalityTaxesWindowsService.pdb
+C:\Users\Asit_S\Desktop\App2\MunicipalityTaxes\MunicipalityTaxesWindowsService\bin\Debug\MunicipalityTaxes.dll
+C:\Users\Asit_S\Desktop\App2\MunicipalityTaxes\MunicipalityTaxesWindowsService\bin\Debug\NLog.dll
+C:\Users\Asit_S\Desktop\App2\MunicipalityTaxes\MunicipalityTaxesWindowsService\bin\Debug\MunicipalityTaxes.pdb
+C:\Users\Asit_S\Desktop\App2\MunicipalityTaxes\MunicipalityTaxesWindowsService\bin\Debug\MunicipalityTaxes.dll.config
+C:\Users\Asit_S\Desktop\App2\MunicipalityTaxes\MunicipalityTaxesWindowsService\bin\Debug\NLog.xml
+C:\Users\Asit_S\Desktop\App2\MunicipalityTaxes\MunicipalityTaxesWindowsService\obj\Debug\MunicipalityTaxesWindowsService.csprojAssemblyReference.cache
+C:\Users\Asit_S\Desktop\App2\MunicipalityTaxes\MunicipalityTaxesWindowsService\obj\Debug\MunicipalityTaxesWindowsService.MunicipalityTaxesWindowsService.resources
+C:\Users\Asit_S\Desktop\App2\MunicipalityTaxes\MunicipalityTaxesWindowsService\obj\Debug\MunicipalityTaxesWindowsService.ProjectInstaller.resources
+C:\Users\Asit_S\Desktop\App2\MunicipalityTaxes\MunicipalityTaxesWindowsService\obj\Debug\MunicipalityTaxesWindowsService.csproj.GenerateResource.cache
+C:\Users\Asit_S\Desktop\App2\MunicipalityTaxes\MunicipalityTaxesWindowsService\obj\Debug\MunicipalityTaxesWindowsService.csproj.CopyComplete
+C:\Users\Asit_S\Desktop\App2\MunicipalityTaxes\MunicipalityTaxesWindowsService\obj\Debug\MunicipalityTaxesWindowsService.exe
+C:\Users\Asit_S\Desktop\App2\MunicipalityTaxes\MunicipalityTaxesWindowsService\obj\Debug\MunicipalityTaxesWindowsService.pdb

@@ -1,0 +1,9 @@
+C:\Users\Asit_S\Desktop\App2\MunicipalityTaxes\MunicipalityTaxes\bin\Debug\NLog.config
+C:\Users\Asit_S\Desktop\App2\MunicipalityTaxes\MunicipalityTaxes\bin\Debug\MunicipalityTaxes.dll.config
+C:\Users\Asit_S\Desktop\App2\MunicipalityTaxes\MunicipalityTaxes\bin\Debug\MunicipalityTaxes.dll
+C:\Users\Asit_S\Desktop\App2\MunicipalityTaxes\MunicipalityTaxes\bin\Debug\MunicipalityTaxes.pdb
+C:\Users\Asit_S\Desktop\App2\MunicipalityTaxes\MunicipalityTaxes\bin\Debug\NLog.dll
+C:\Users\Asit_S\Desktop\App2\MunicipalityTaxes\MunicipalityTaxes\bin\Debug\NLog.xml
+C:\Users\Asit_S\Desktop\App2\MunicipalityTaxes\MunicipalityTaxes\obj\Debug\MunicipalityTaxes.csproj.CopyComplete
+C:\Users\Asit_S\Desktop\App2\MunicipalityTaxes\MunicipalityTaxes\obj\Debug\MunicipalityTaxes.dll
+C:\Users\Asit_S\Desktop\App2\MunicipalityTaxes\MunicipalityTaxes\obj\Debug\MunicipalityTaxes.pdb

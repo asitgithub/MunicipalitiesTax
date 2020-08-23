@@ -1,0 +1,43 @@
+2020-08-23 17:54:37.8311|TRACE|MunicipalityTaxes.MunicipalityTaxesService|InsertTaxScheduleDetails request received with parameters: tax: MunicipalityTaxSchedule: Vilnius, Yearly, 2016.01.01, 0.2
+2020-08-23 17:54:37.8311|TRACE|MunicipalityTaxes.MunicipalityTaxesService|tax validity status is: Valid
+2020-08-23 17:54:37.8311|TRACE|MunicipalityTaxes.MunicipalityTaxesService|Returning InsertTaxScheduleDetails response: Validity: Valid, TaxScheduleInsertionResult: Success
+2020-08-23 17:54:37.8871|TRACE|MunicipalityTaxes.MunicipalityTaxesService|InsertTaxScheduleDetails request received with parameters: tax: MunicipalityTaxSchedule: Vilnius, Monthly, 2016.05.01, 0.4
+2020-08-23 17:54:37.8871|TRACE|MunicipalityTaxes.MunicipalityTaxesService|tax validity status is: Valid
+2020-08-23 17:54:37.8871|TRACE|MunicipalityTaxes.MunicipalityTaxesService|Returning InsertTaxScheduleDetails response: Validity: Valid, TaxScheduleInsertionResult: Success
+2020-08-23 17:54:37.8871|TRACE|MunicipalityTaxes.MunicipalityTaxesService|InsertTaxScheduleDetails request received with parameters: tax: MunicipalityTaxSchedule: Vilnius, Daily, 2016.01.01, 0.1
+2020-08-23 17:54:37.8871|TRACE|MunicipalityTaxes.MunicipalityTaxesService|tax validity status is: Valid
+2020-08-23 17:54:37.8871|TRACE|MunicipalityTaxes.MunicipalityTaxesService|Returning InsertTaxScheduleDetails response: Validity: Valid, TaxScheduleInsertionResult: Success
+2020-08-23 17:54:37.8971|TRACE|MunicipalityTaxes.MunicipalityTaxesService|InsertTaxScheduleDetails request received with parameters: tax: MunicipalityTaxSchedule: Vilnius, Daily, 2016.12.25, 0.1
+2020-08-23 17:54:37.8971|TRACE|MunicipalityTaxes.MunicipalityTaxesService|tax validity status is: Valid
+2020-08-23 17:54:37.8971|TRACE|MunicipalityTaxes.MunicipalityTaxesService|Returning InsertTaxScheduleDetails response: Validity: Valid, TaxScheduleInsertionResult: Success
+2020-08-23 17:54:37.8971|TRACE|MunicipalityTaxes.MunicipalityTaxesService|GetTax request received with parameters: muncipality: Vilnius, Vilnius: at
+2020-08-23 17:54:37.9211|TRACE|MunicipalityTaxes.MunicipalityTaxesService|Returning GetTax response: 0.1
+2020-08-23 17:57:44.2501|TRACE|MunicipalityTaxes.MunicipalityTaxesService|InsertTaxScheduleDetails request received with parameters: tax: MunicipalityTaxSchedule: Copenhegan, Yearly, 2016.01.01, 0.2
+2020-08-23 17:57:44.2601|TRACE|MunicipalityTaxes.MunicipalityTaxesService|tax validity status is: Valid
+2020-08-23 17:57:44.2601|TRACE|MunicipalityTaxes.MunicipalityTaxesService|Returning InsertTaxScheduleDetails response: Validity: Valid, TaxScheduleInsertionResult: Success
+2020-08-23 17:57:44.3121|TRACE|MunicipalityTaxes.MunicipalityTaxesService|InsertTaxScheduleDetails request received with parameters: tax: MunicipalityTaxSchedule: Copenhegan, Monthly, 2016.05.01, 0.4
+2020-08-23 17:57:44.3121|TRACE|MunicipalityTaxes.MunicipalityTaxesService|tax validity status is: Valid
+2020-08-23 17:57:44.3121|TRACE|MunicipalityTaxes.MunicipalityTaxesService|Returning InsertTaxScheduleDetails response: Validity: Valid, TaxScheduleInsertionResult: Success
+2020-08-23 17:57:44.3211|TRACE|MunicipalityTaxes.MunicipalityTaxesService|InsertTaxScheduleDetails request received with parameters: tax: MunicipalityTaxSchedule: Copenhegan, Daily, 2016.01.01, 0.1
+2020-08-23 17:57:44.3211|TRACE|MunicipalityTaxes.MunicipalityTaxesService|tax validity status is: Valid
+2020-08-23 17:57:44.3211|TRACE|MunicipalityTaxes.MunicipalityTaxesService|Returning InsertTaxScheduleDetails response: Validity: Valid, TaxScheduleInsertionResult: Success
+2020-08-23 17:57:44.3211|TRACE|MunicipalityTaxes.MunicipalityTaxesService|InsertTaxScheduleDetails request received with parameters: tax: MunicipalityTaxSchedule: Copenhegan, Daily, 2016.12.25, 0.1
+2020-08-23 17:57:44.3211|TRACE|MunicipalityTaxes.MunicipalityTaxesService|tax validity status is: Valid
+2020-08-23 17:57:44.3211|TRACE|MunicipalityTaxes.MunicipalityTaxesService|Returning InsertTaxScheduleDetails response: Validity: Valid, TaxScheduleInsertionResult: Success
+2020-08-23 17:57:59.6064|TRACE|MunicipalityTaxes.MunicipalityTaxesService|GetTax request received with parameters: muncipality: Copenhegan, Copenhegan: at
+2020-08-23 17:57:59.6194|TRACE|MunicipalityTaxes.MunicipalityTaxesService|Returning GetTax response: 0.1
+2020-08-23 17:59:13.5500|TRACE|MunicipalityTaxes.MunicipalityTaxesService|InsertTaxScheduleDetails request received with parameters: tax: MunicipalityTaxSchedule: Copenhegan, Yearly, 2016.01.01, 0.2
+2020-08-23 17:59:13.5500|TRACE|MunicipalityTaxes.MunicipalityTaxesService|tax validity status is: Valid
+2020-08-23 17:59:13.5500|TRACE|MunicipalityTaxes.MunicipalityTaxesService|Returning InsertTaxScheduleDetails response: Validity: Valid, TaxScheduleInsertionResult: Success
+2020-08-23 17:59:13.6290|TRACE|MunicipalityTaxes.MunicipalityTaxesService|InsertTaxScheduleDetails request received with parameters: tax: MunicipalityTaxSchedule: Copenhegan, Monthly, 2016.05.01, 0.4
+2020-08-23 17:59:13.6290|TRACE|MunicipalityTaxes.MunicipalityTaxesService|tax validity status is: Valid
+2020-08-23 17:59:13.6290|TRACE|MunicipalityTaxes.MunicipalityTaxesService|Returning InsertTaxScheduleDetails response: Validity: Valid, TaxScheduleInsertionResult: Success
+2020-08-23 17:59:13.6290|TRACE|MunicipalityTaxes.MunicipalityTaxesService|InsertTaxScheduleDetails request received with parameters: tax: MunicipalityTaxSchedule: Copenhegan, Daily, 2016.01.01, 0.1
+2020-08-23 17:59:13.6290|TRACE|MunicipalityTaxes.MunicipalityTaxesService|tax validity status is: Valid
+2020-08-23 17:59:13.6290|TRACE|MunicipalityTaxes.MunicipalityTaxesService|Returning InsertTaxScheduleDetails response: Validity: Valid, TaxScheduleInsertionResult: Success
+2020-08-23 17:59:13.6290|TRACE|MunicipalityTaxes.MunicipalityTaxesService|InsertTaxScheduleDetails request received with parameters: tax: MunicipalityTaxSchedule: Copenhegan, Daily, 2016.12.25, 0.1
+2020-08-23 17:59:13.6290|TRACE|MunicipalityTaxes.MunicipalityTaxesService|tax validity status is: Valid
+2020-08-23 17:59:13.6290|TRACE|MunicipalityTaxes.MunicipalityTaxesService|Returning InsertTaxScheduleDetails response: Validity: Valid, TaxScheduleInsertionResult: Success
+2020-08-23 17:59:22.7132|TRACE|MunicipalityTaxes.MunicipalityTaxesService|GetTax request received with parameters: muncipality: Copenhegan, Copenhegan: at
+2020-08-23 17:59:22.8057|ERROR|MunicipalityTaxes.MunicipalityTaxesService|Exception occurred in GetTax method
+2020-08-23 17:59:26.5146|TRACE|MunicipalityTaxes.MunicipalityTaxesService|Returning GetTax response: 
