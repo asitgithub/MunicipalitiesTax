@@ -36,3 +36,49 @@ Below are few of my Assumptions  -
 2. a Monthly schedule to start not on the 1st of the month
 3. a Weekly schedule to start not on a Monday
 
+I since realised that maybe that's a constraint that I assumed, as it is not specifically mentioned in the specification, so I decided to add another Tax Validation class that would remove this restriction, and enable it to be configured in the config file.
+
+The relevant configuration setting is in the AppSettings section, with key ITaxScheduleValidator, and currently 2 possible values:
+
+MunicipalityTaxes.PermissiveDateTaxScheduleValidator for a less restrictive schedule date validator
+
+MunicipalityTaxes.TaxScheduleValidator for a more restrictive schedule date validator
+
+Also, the task mentioned that the solution should have it's own database - for simplicity I chose to interpret this loosely, and am using an "in memory database" which could easily be swapped out for another ITaxStorageProvider if one was implemented, again using AppSettings and you guessed it, the key ITaxStorageProvider.
+
+# Windows Service
+
+Instructions on how to install a Windows Service: https://msdn.microsoft.com/en-us/library/zt39148a(v=vs.110).aspx#BK_Install The startup type for this MunicipalityTaxes Windows Service is set to Manual by default, so you'll need to start it manually after installing. :)
+
+The URL for the service is set in the config, and is currently http://localhost:8733/Design_Time_Addresses/MunicipalityTaxes/Service1/mex, as defined at https://github.com/keith-hall/Showcase_CSharp_MunicipalityTaxSchedule/blob/4cda15a87b536a346af33f62e035f646b7bc03ae/MunicipalityTaxes/MunicipalityTaxes/App.config#L25.
+
+If you get an System.ServiceModel.AddressAccessDeniedException when you try to host the WCF service, like:
+
+Please try changing the HTTP port to 8733 or running as Administrator.
+
+# Bulk Import
+
+The bulk import method expects a text file in the following format:
+
+Vilnius|Yearly|2016-01-01|0.2
+Vilnius|Monthly|2016-05-01|0.4
+Vilnius|Daily|2016-01-01|0.1
+Vilnius|Daily|2016-12-25|0.1
+i.e. for each tax schedule:
+
+Muncipality
+
+followed by a pipe character
+followed by the frequency - either "Yearly", "Monthly", "Weekly" or "Daily"
+followed by a pipe character
+followed by a date that .NET can parse unambiguously
+followed by a pipe character
+followed by the tax amount (a double that .NET can parse)
+followed by a new line character (CRLF in Windows world)
+
+Of course, in keeping with the requirements, any internal errors like the specifics of parse failures etc. are not shown to the user, but are logged for the service administrators to peruse.
+
+I have used In Memory Database for my solution.
+
+
+
